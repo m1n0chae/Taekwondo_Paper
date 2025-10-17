@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="preferred17" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2024-May-11 17:09:28"/>
+    <Param header="0" name="x2d" value="preferred17.x2d"/>
+    <Param header="0" name="x1d" value="preferred17.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.12.1.133760h"/>
+      <Param header="0" name="Start Date" value="2024-May-20 22:10:44"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:10:44"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="447"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="No"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Ankle_Outer1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:11"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Ankle_Outer1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Ankle_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:11"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Ankle_Inner1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Knee_Outer1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:13"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Knee_Outer1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Knee_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:13"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Knee_Inner1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:13"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Wrist1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:14"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Wrist1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Knee_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:15"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Knee_Inner1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Knee_Outer1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:15"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Knee_Outer1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Ankle_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:15"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Ankle_Inner1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Ankle_Outer1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:16"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Ankle_Outer1"/>
+          <Param header="0" name="Frame" value="120"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Delete Trajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:20"/>
+          <Param header="0" name="Trajectory" value="Unlabeled"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Delete Trajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:25"/>
+          <Param header="0" name="Trajectory" value="Unlabeled"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Left_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:29"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Left_Wrist1"/>
+          <Param header="0" name="Frame" value="239"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Delete Trajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:34"/>
+          <Param header="0" name="Trajectory" value="Unlabeled"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  subject5_KPNP:Right_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:38"/>
+          <Param header="0" name="Label" value="subject5_KPNP:Right_Wrist1"/>
+          <Param header="0" name="Frame" value="289"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  Right_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:51"/>
+          <Param header="0" name="Trajectory" value="Right_Wrist1"/>
+          <Param header="0" name="Donor Trajectory 1" value="Left_Wrist1"/>
+          <Param header="0" name="Donor Trajectory 2" value="Right_Knee_Outer1"/>
+          <Param header="0" name="Donor Trajectory 3" value="Right_Knee_Inner1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  Right_Knee_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:54"/>
+          <Param header="0" name="Trajectory" value="Right_Knee_Inner1"/>
+          <Param header="0" name="Frame" value="133"/>
+          <Param header="0" name="Gap Start Frame" value="132"/>
+          <Param header="0" name="Gap End Frame" value="135"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  Right_Ankle_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:56"/>
+          <Param header="0" name="Trajectory" value="Right_Ankle_Inner1"/>
+          <Param header="0" name="Frame" value="247"/>
+          <Param header="0" name="Gap Start Frame" value="246"/>
+          <Param header="0" name="Gap End Frame" value="248"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  Left_Wrist1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:11:59"/>
+          <Param header="0" name="Trajectory" value="Left_Wrist1"/>
+          <Param header="0" name="Frame" value="232"/>
+          <Param header="0" name="Gap Start Frame" value="231"/>
+          <Param header="0" name="Gap End Frame" value="233"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  Left_Knee_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:12:02"/>
+          <Param header="0" name="Trajectory" value="Left_Knee_Inner1"/>
+          <Param header="0" name="Frame" value="126"/>
+          <Param header="0" name="Gap Start Frame" value="125"/>
+          <Param header="0" name="Gap End Frame" value="127"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory:  Left_Knee_Inner1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-May-20 22:12:02"/>
+          <Param header="0" name="Trajectory" value="Left_Knee_Inner1"/>
+          <Param header="0" name="Frame" value="135"/>
+          <Param header="0" name="Gap Start Frame" value="134"/>
+          <Param header="0" name="Gap End Frame" value="136"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

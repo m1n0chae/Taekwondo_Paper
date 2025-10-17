@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KinematicModel MODEL="Taekwondo_Professional" VERSION="3.2">
+	<Parameters>
+		<Parameter NAME="Left_Ankle_Left_Ankle1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Left_Ankle1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Left_Ankle1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Left_Ankle2_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Left_Ankle2_y" VALUE="-3.5527100789104751e-15" PRIOR="-3.5527136788005009e-15" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Left_Ankle2_z" VALUE="-62.178001403808594" PRIOR="-62.177997589111328" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Outer_Left_Ankle_Outer1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Outer_Left_Ankle_Outer1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Outer_Left_Ankle_Outer1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Inner_Left_Ankle_Inner1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Inner_Left_Ankle_Inner1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Ankle_Inner_Left_Ankle_Inner1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Outer_Left_Knee_Outer1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Outer_Left_Knee_Outer1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Outer_Left_Knee_Outer1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Inner_Left_Knee_Inner1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Inner_Left_Knee_Inner1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Knee_Inner_Left_Knee_Inner1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Wrist_Left_Wrist1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Wrist_Left_Wrist1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Left_Wrist_Left_Wrist1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Wrist_Right_Wrist1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Wrist_Right_Wrist1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Wrist_Right_Wrist1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Inner_Right_Knee_Inner1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Inner_Right_Knee_Inner1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Inner_Right_Knee_Inner1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Outer_Right_Knee_Outer1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Outer_Right_Knee_Outer1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Knee_Outer_Right_Knee_Outer1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Inner_Right_Ankle_Inner1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Inner_Right_Ankle_Inner1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Inner_Right_Ankle_Inner1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Outer_Right_Ankle_Outer1_x" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Outer_Right_Ankle_Outer1_y" VALUE="0" PRIOR="0" HIDDEN="true"/>
+		<Parameter NAME="Right_Ankle_Outer_Right_Ankle_Outer1_z" VALUE="0" PRIOR="0" HIDDEN="true"/>
+	</Parameters>
+	<Skeleton RGB="93 93 93"/>
+	<MarkerSet>
+		<Markers>
+			<Marker NAME="Left_Ankle_Outer1" RADIUS="12.5" RGB="255 0 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Left_Ankle_Inner1" RADIUS="12.5" RGB="255 21 244" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Left_Knee_Outer1" RADIUS="12.5" RGB="255 85 127" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Left_Knee_Inner1" RADIUS="12.5" RGB="0 85 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Left_Wrist1" RADIUS="12.5" RGB="255 170 255" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Right_Wrist1" RADIUS="12.5" RGB="0 255 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Right_Knee_Inner1" RADIUS="12.5" RGB="0 0 127" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Right_Knee_Outer1" RADIUS="12.5" RGB="0 170 255" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Right_Ankle_Inner1" RADIUS="12.5" RGB="85 0 0" STATUS="required" VIEW-ANGLE="0"/>
+			<Marker NAME="Right_Ankle_Outer1" RADIUS="12.5" RGB="185 185 0" STATUS="required" VIEW-ANGLE="0"/>
+		</Markers>
+		<Sticks/>
+	</MarkerSet>
+	<TargetSet>
+		<Targets/>
+	</TargetSet>
+</KinematicModel>
+
